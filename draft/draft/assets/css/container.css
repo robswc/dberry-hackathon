@@ -1,0 +1,9 @@
+.container h1 {
+    background-color: #313040;
+    font-size: large;
+    color: white;
+}
+
+.container {
+    background-color: lightgray;
+}
