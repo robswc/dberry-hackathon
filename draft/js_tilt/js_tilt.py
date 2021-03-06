@@ -11,14 +11,9 @@ app.layout = html.Div([
             html.Div('Plotly Dash', className="app-header--title")
         ]
     ),
-    html.Div(
-        children=html.Div([
-            html.H5('Overview'),
-            html.Div('''
-                This is an example of a simple Dash app with
-                local, customized CSS.
-            ''')
-        ])
+    
+    html.Img(
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.FSEs7JbMmmOvXa8UFA9a2QAAAA%26pid%3DApi&f=1"
     )
 ])
 
