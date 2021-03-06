@@ -62,14 +62,27 @@ class LibraryInterface:
             book_list.append(self.render_book(book))
 
         library = html.Div([
-            dcc.Dropdown(
-                id='demo-dropdown',
-                options=[
-                    {'label': 'default', 'value': 'default'},
+            html.Div(
+                style={'padding-bottom': '1rem'},
+                className='',
+                children=[
+                    dcc.Dropdown(
+                        id='demo-dropdown',
+                        options=[
+                            {'label': 'default', 'value': 'default'},
+                        ],
+                        value='default',
+                    ),
                 ],
-                value='default'
             ),
-            html.Ul(book_list)
+            html.Div(
+                className='scroll-wrapper',
+                children=[html.Ul(book_list, style={'padding': 0})]
+            )
         ])
 
         return library
+
+
+# Main Library Interface
+li = LibraryInterface()

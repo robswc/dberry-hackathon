@@ -27,7 +27,7 @@ def render_tile(obj, title, col):
     :return:
     """
     container = html.Div(
-        style={'height': '50vh'},
+        style={'height': '90vh'},
         children=[
             html.H1(title),
             html.Div(obj)

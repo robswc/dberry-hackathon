@@ -2,7 +2,35 @@
     background-color: #313040 !important;
 }
 
+.add-button {
+    background-color: #A2BABD;
+    border: 0;
+    padding: 0.5rem;
+    font-size: large;
+    color: white;
+}
+
 .card-horizontal {
     display: flex;
     flex: 1 1 auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #7E8284;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #A2BABD;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
