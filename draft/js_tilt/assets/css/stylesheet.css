@@ -8,3 +8,10 @@
     font-size: 22px;
     padding-left: 5px;
 }
+
+.app-header Img {
+    position: relative;
+    float: right;
+    right: 10px;
+    height: 75px;
+}
