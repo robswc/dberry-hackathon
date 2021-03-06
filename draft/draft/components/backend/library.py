@@ -5,7 +5,8 @@ class Shelf:
 
 
 class Library:
-    def __init__(self):
+    def __init__(self, title):
+        self.title = title
         self.books = []
         self.shelves = []
 
@@ -19,4 +20,4 @@ class Library:
         pass
 
     def add_book(self, book):
-        pass
+        self.books.append(book)

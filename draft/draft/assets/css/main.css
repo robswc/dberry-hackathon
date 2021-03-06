@@ -1,0 +1,8 @@
+.navbar {
+    background-color: #313040 !important;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
