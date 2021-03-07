@@ -25,9 +25,13 @@ li.create_library('default')
 
 md = dcc.Markdown(
     '''
-    ### This is a header
-    
-    This is a description about the app n stuff
+    # d.berry - an online library asset manager 
+
+    #### This application concept was concieved, developed, and presented in < 24 hours by Robert Carroll and Brandon Frulla for the Spring 2021 UMW ACM Hackathon
+
+    This application leverages Dash with the Google Books API, as well as google OCR to parse books titles from a photograph and add them to the user's library.
+
+    [Contributions to the code base can be made here.](http://https://github.com/robswc/dberry-hackathon/tree/master/draft "Contributions to the code base can be made here.")f
     
     '''
 )
