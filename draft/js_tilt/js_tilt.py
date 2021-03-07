@@ -10,22 +10,10 @@ app = dash.Dash(__name__, assets_folder=assets_path)
 
 app.layout = html.Div([
     
-    # html.Div(
-    #     className="app-header",
-    #     children=[
-    #         html.Div('d.berry Tilt.js', className="app-header--title")
-    #     ]
-    # ),
-
-    # html.Div([
-    #     html.Div(
-    #         children=html.Div([
-    #             html.Div('''
-    #                 I will make tilt work with Dash if it kills me
-    #             ''')
-    #         ])
-    #     )
-    # ])
+    html.Div(
+        className="box",
+    ),
+   
 ])
 
 
