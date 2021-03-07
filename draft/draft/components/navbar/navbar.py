@@ -19,10 +19,10 @@ navbar = html.Div([
                             html.Ul(
                                 className='navbar-nav',
                                 children=[
-                                    html.Li(html.A('Home', style={'color': 'white'}, className='nav-link')),
-                                    html.Li(html.A('Import', style={'color': 'white'}, className='nav-link')),
-                                    html.Li(html.A('Library', style={'color': 'white'}, className='nav-link')),
-                                    html.Li(html.A('About', style={'color': 'white'}, className='nav-link')),
+                                    html.Li(html.A('Home', style={'color': 'white'}, className='nav-link', href='/home')),
+                                    html.Li(html.A('Import', style={'color': 'white'}, className='nav-link', href='/import')),
+                                    html.Li(html.A('Library', style={'color': 'white'}, className='nav-link', href='/library')),
+                                    html.Li(html.A('About', style={'color': 'white'}, className='nav-link', href='/about')),
                                 ]
                             )
                         ])

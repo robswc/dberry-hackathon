@@ -19,8 +19,8 @@ input_module = input_interface.render()
 
 # Make library
 li.create_library('default')
-li.get_library('default').add_book(Book('Harry Potter', 'JK Rowling', '10101'))
-
+# li.get_library('default').add_book(Book(title='Harry Potter', authors=['JK Rowling'], isbn='111'))
+li.get_library('default').load_library()
 
 tiles = [
     renders.render_tile(img_upload, 'Image', 4),

@@ -15,3 +15,15 @@
     right: 10px;
     height: 75px;
 }
+
+.box{
+    width: 300px;
+    height: 500px;
+    /* background-color: blue; */
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.FSEs7JbMmmOvXa8UFA9a2QAAAA%26pid%3DApi&f=1');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin: auto;
+    box-shadow: 0 0 4px 0 #ccc;
+}
