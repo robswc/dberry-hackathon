@@ -31,7 +31,7 @@ md = dcc.Markdown(
 
     This application leverages Dash with the Google Books API, as well as google OCR to parse books titles from a photograph and add them to the user's library.
 
-    [Contributions to the code base can be made here.](http://https://github.com/robswc/dberry-hackathon/tree/master/draft "Contributions to the code base can be made here.")f
+    [Contributions to the code base can be made here.](http://https://github.com/robswc/dberry-hackathon/tree/master/draft "Contributions to the code base can be made here.")
     
     '''
 )
