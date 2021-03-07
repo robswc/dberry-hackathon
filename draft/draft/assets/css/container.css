@@ -1,11 +1,19 @@
-.container h1 {
+.container-inner h1 {
     background-color: #313040;
     font-size: large;
     color: white;
+    margin-top: -1rem;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding-left: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
 }
 
-.container {
+.container-inner {
     background-color: #FBFAF9;
+    height: 100%;
+    padding: 1rem;
 }
 
 .scroll-wrapper {

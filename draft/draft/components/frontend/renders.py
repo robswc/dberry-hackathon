@@ -1,4 +1,5 @@
 import dash_html_components as html
+import time
 
 
 def render_container(tiles):
@@ -6,7 +7,6 @@ def render_container(tiles):
     Renders a container, that contains tiles.
     :return: html.Div
     """
-
     container = html.Div(
         className='container-fluid',
         style={'padding': '1em'},
@@ -29,8 +29,13 @@ def render_tile(obj, title, col):
     container = html.Div(
         style={'height': '90vh'},
         children=[
-            html.H1(title),
-            html.Div(obj)
+            html.Div(
+                className='container-inner',
+                children=[
+                    html.H1(title),
+                    html.Div(obj)
+                ])
+
         ], className='container col-lg-{}'.format(col))
 
     return container
